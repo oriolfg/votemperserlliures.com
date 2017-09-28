@@ -64,3 +64,6 @@ html, body {
     border: 0;
     height: 1px;
   }
+  .no-url {
+    text-decoration: line-through;
+  }
