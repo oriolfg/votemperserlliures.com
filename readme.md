@@ -1,6 +1,6 @@
 # votemperserlliures.com
 
-Aquesta web anteriorment va ser un mirror de la web oficial del referèndum, ara s'ha reconvertit en un petit recull de punts oficials i no oficials d'informació sobre llocs on poder consultar on és podrà anar a votar el proper dia 1
+Aquesta web anteriorment va ser un mirror de la web oficial del referèndum (ara disponible a https://oriolfg.github.io/referendum_cat_mirror/ ), ara s'ha reconvertit en un petit recull de punts oficials i no oficials d'informació sobre llocs on poder consultar on és podrà anar a votar el proper dia 1
 
 # Contribuir
 
