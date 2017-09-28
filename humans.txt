@@ -1,0 +1,12 @@
+/* TEAM */
+    Chef:Oriol Ferràndez Grau
+    Contact: oriol [at] ferrandez.cat
+    Twitter: @oriolfg
+    From:Caldes de Montbui, Barcelona, Catalonia
+
+
+/* SITE */
+    Last update:2017/09/28
+    Language: Català
+    Doctype:HTML5
+    IDE: Sublime Text 3, Git, Gimp, Sketch App
