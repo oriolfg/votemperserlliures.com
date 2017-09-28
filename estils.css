@@ -58,6 +58,14 @@ html, body {
     padding: 1rem;
     word-wrap: break-word;
   }
+  a {
+    text-decoration: none;
+    color: #ffa838;
+    font-weight: bold;
+  }
+  a:hover i.fa {
+    color: inherit;
+  }
   hr {
     dispaly: block;
     background-color: var(--light-gray);
