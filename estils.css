@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    --main-color: #585858;
+    --light-gray: #ccc;
+    --dark-gray: #333;
+    color: var(--main-color);
+    padding: 0;
+    margin: 0;
+  }
+  .layout {
+    height: 100%;
+    display:grid;
+    grid-template-areas: "header"
+    "oficials"
+    "populars"
+    "enganyoses"
+    "footer";
+  }
+  .logo {
+    grid-area: header;
+  }
+  .fonts-oficials {
+    grid-area: oficials;
+  }
+  .fonts-populars {
+    grid-area: populars;
+  }
+  .fonts-enganyoses {
+    grid-area: enganyoses;
+  }
+  .footer {
+    grid-area: footer;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    background-color: var(--dark-gray);
+    color:#FFF;
+  }
+  @media only screen and (min-width: 1000px) {
+    .c-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
+      grid-gap: 3rem;
+    }
+  }
+  i.fa {
+    display:block;
+    font-size: 4rem;
+    margin: 0.5rem;
+    color: var(--light-gray);
+  }
+  .title {
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  .item {
+    padding: 1rem;
+    word-wrap: break-word;
+  }
+  hr {
+    dispaly: block;
+    background-color: var(--light-gray);
+    border: 0;
+    height: 1px;
+  }
