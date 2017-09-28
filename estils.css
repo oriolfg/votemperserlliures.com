@@ -15,6 +15,7 @@ html, body {
     grid-template-areas: "header"
     "oficials"
     "populars"
+    "locals"
     "footer";
   }
   .logo {
@@ -25,6 +26,9 @@ html, body {
   }
   .fonts-populars {
     grid-area: populars;
+  }
+  .fonts-locals {
+    grid-area: locals;
   }
   .footer {
     grid-area: footer;
