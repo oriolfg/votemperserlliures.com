@@ -4,9 +4,12 @@
     Twitter: @oriolfg
     From:Caldes de Montbui, Barcelona, Catalonia
 
+    Contributor:Quim Rovira
+    Twitter: @quimrovira
+    From: Girona, Catalonia
 
 /* SITE */
-    Last update:2017/09/28
+    Last update:2017/09/29
     Language: Català
     Doctype:HTML5
     IDE: Sublime Text 3, Git, Gimp, Sketch App
