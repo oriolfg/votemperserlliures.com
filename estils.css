@@ -13,6 +13,7 @@ html, body {
     height: 100%;
     grid-template-areas: "header"
     "oficials"
+    "censura"
     "populars"
     "locals"
     "footer";
@@ -25,6 +26,9 @@ html, body {
   }
   .fonts-oficials {
     grid-area: oficials;
+  }
+  .fonts-censura {
+    grid-area: locals;
   }
   .fonts-populars {
     grid-area: populars;
