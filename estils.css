@@ -11,12 +11,14 @@ html, body {
   }
   .layout {
     height: 100%;
-    display:grid;
     grid-template-areas: "header"
     "oficials"
     "populars"
     "locals"
     "footer";
+  }
+  section {
+    margin-bottom: 6rem;
   }
   .logo {
     grid-area: header;
