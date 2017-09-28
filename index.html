@@ -74,22 +74,20 @@
         </div>
       </div>
     </section>
-    <section class="fonts-locals">
+    <section class="fonts-locals" style="display: none;">
+      <h1 class="title">Aquest lloc web conté còpies de:</h1>
       <div class="c-grid">
-        <div class="item">
-          <h1 class="title">Aquest lloc web conté còpies de:</h1>
-          <div class="item">
-            <a class="itemlink" href="ref1oct">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            WEB</a><br/>
-            Web oficial del referèndum.<br/>
-          </div>
-          <div class="item">
-            <a class="itemlink" href="encartellem">
-            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-            WEB</a><br/>
-            Web d'encartellem.cat<br/>
-          </div>
+        <div class="item" style="display: none;">
+          <a href="ref1oct/index.html">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          WEB</a><br/>
+          Web oficial del referèndum.<br/>
+        </div>
+        <div class="item" style="display: none;">
+          <a href="encartellem/index.html">
+          <i class="fa fa-file-image-o" aria-hidden="true"></i>
+          WEB</a><br/>
+          Web d'encartellem.cat<br/>
         </div>
       </div>
     </section>
@@ -105,6 +103,20 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-106885938-1');
+
+  document.querySelectorAll('section.fonts-locals a').forEach(function(e) {
+    var x = new XMLHttpRequest();
+    var fl = document.querySelector('section.fonts-locals');
+    x.addEventListener("load", function() {
+      if( this.status < 400 ) {
+        e.parentElement.style.display = null;
+        fl.style.display = null;
+      }
+    });
+    x.open("GET", e.href);
+    x.send();
+  });
+
 </script>
 
 </html>
