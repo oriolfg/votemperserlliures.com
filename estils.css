@@ -7,15 +7,19 @@ html, body {
     color: var(--main-color);
     padding: 0;
     margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   .layout {
     height: 100%;
-    display:grid;
     grid-template-areas: "header"
     "oficials"
+    "censura"
     "populars"
-    "enganyoses"
+    "locals"
     "footer";
+  }
+  section {
+    margin-bottom: 6rem;
   }
   .logo {
     grid-area: header;
@@ -23,11 +27,14 @@ html, body {
   .fonts-oficials {
     grid-area: oficials;
   }
+  .fonts-censura {
+    grid-area: locals;
+  }
   .fonts-populars {
     grid-area: populars;
   }
-  .fonts-enganyoses {
-    grid-area: enganyoses;
+  .fonts-locals {
+    grid-area: locals;
   }
   .footer {
     grid-area: footer;
@@ -57,9 +64,20 @@ html, body {
     padding: 1rem;
     word-wrap: break-word;
   }
+  a {
+    text-decoration: none;
+    color: #ffa838;
+    font-weight: bold;
+  }
+  a:hover i.fa {
+    color: inherit;
+  }
   hr {
     dispaly: block;
     background-color: var(--light-gray);
     border: 0;
     height: 1px;
+  }
+  .no-url {
+    text-decoration: line-through;
   }
