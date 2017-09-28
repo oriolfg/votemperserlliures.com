@@ -2,46 +2,24 @@ html, body {
     height: 100%;
     text-align: center;
     --main-color: #585858;
+    --highlighted-main-color: #ffa838;
     --light-gray: #ccc;
     --dark-gray: #333;
+    --contrast-white-color: #fff;
     color: var(--main-color);
     padding: 0;
     margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
-  .layout {
-    height: 100%;
-    grid-template-areas: "header"
-    "oficials"
-    "censura"
-    "populars"
-    "locals"
-    "footer";
-  }
   section {
-    margin-bottom: 6rem;
-  }
-  .logo {
-    grid-area: header;
-  }
-  .fonts-oficials {
-    grid-area: oficials;
-  }
-  .fonts-censura {
-    grid-area: locals;
-  }
-  .fonts-populars {
-    grid-area: populars;
-  }
-  .fonts-locals {
-    grid-area: locals;
+    margin-bottom: 3rem;
+    overflow: hidden;
   }
   .footer {
-    grid-area: footer;
     padding: 2rem 0;
     margin-top: 2rem;
     background-color: var(--dark-gray);
-    color:#FFF;
+    color:var(--contrast-white-color);
   }
   @media only screen and (min-width: 1000px) {
     .c-grid {
@@ -66,7 +44,7 @@ html, body {
   }
   a {
     text-decoration: none;
-    color: #ffa838;
+    color: var(--highlighted-main-color);
     font-weight: bold;
   }
   a:hover i.fa {
