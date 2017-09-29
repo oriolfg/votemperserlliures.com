@@ -9,5 +9,7 @@ Sigueu lliures de contribuir-hi, farem tot el possible per actualtzar la informa
 #Aquesta pàgina pot ser visitada desde:
 
 [CENSURADA] http://votemperserlliures.com 
+
 https://oriolfg.github.io/votemperserlliures.com/
+
 http://votemperserlliures.cat
