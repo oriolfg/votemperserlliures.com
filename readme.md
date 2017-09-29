@@ -12,4 +12,4 @@ Sigueu lliures de contribuir-hi, farem tot el possible per actualtzar la informa
 
 https://oriolfg.github.io/votemperserlliures.com/
 
-http://votemperserlliures.cat
+https://votemperserlliures.cat
