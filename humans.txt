@@ -1,10 +1,22 @@
 /* TEAM */
-    Chef:Oriol Ferràndez Grau
+    Master Jedi:Oriol Ferràndez Grau
     Contact: oriol [at] ferrandez.cat
     Twitter: @oriolfg
-    From:Caldes de Montbui, Barcelona, Catalonia
+    From:Caldes de Montbui, Barcelona, 
+    
+    Master Jedi:Angel Fernandez Ibañez
+    Twitter: @black_bit
+    From:Caldes de Montbui, Barcelona, 
+    
+    Master Jedi:Oriol Tauleria
+    Twitter: @UriTau
+    From:Caldes de Montbui, Barcelona, 
+    
+    Master Jedi:Adrià Fontcuberta
+    Twitter: @afontcu << Compte suspès, jijiji
+    From:Caldes de Montbui, Barcelona, 
 
-    Contributor:Quim Rovira
+    Jedi Contributor:Quim Rovira
     Twitter: @quimrovira
     From: Girona, Catalonia
 
