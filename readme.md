@@ -5,3 +5,9 @@ Aquesta web anteriorment va ser un mirror de la web oficial del referèndum (ara
 # Contribuir
 
 Sigueu lliures de contribuir-hi, farem tot el possible per actualtzar la informació amb les vostres propostes, pull-requests, etc.
+
+#Aquesta pàgina pot ser visitada desde:
+
+[CENSURADA] http://votemperserlliures.com 
+https://oriolfg.github.io/votemperserlliures.com/
+http://votemperserlliures.cat
