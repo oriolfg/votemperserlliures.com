@@ -6,14 +6,27 @@ html, body {
     --light-gray: #ccc;
     --dark-gray: #333;
     --contrast-white-color: #fff;
+    --red-democracia: rgba(255, 144, 0, 0.9);
+    --highlighted-main-color-trans: rgba(206, 22, 18, 0.8);
+    --darker-gray: #9e9e9e;
+    --fa-icons-gray: #efefef;
     color: var(--main-color);
     padding: 0;
     margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   section {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     overflow: hidden;
+  }
+  section.fonts-oficials {
+    background: linear-gradient(to bottom right, var(--red-democracia), var(--highlighted-main-color-trans));
+  }
+  * h1 {
+    color: var(--darker-gray);
+  }
+  .fonts-oficials div.c-grid, .fonts-oficials h1, .fonts-oficials * i.fa {
+    color: var(--fa-icons-gray);
   }
   .footer {
     padding: 2rem 0;
@@ -26,16 +39,18 @@ html, body {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
       grid-gap: 3rem;
+      padding-bottom: 1%;
     }
   }
   i.fa {
     display:block;
     font-size: 4rem;
     margin: 0.5rem;
-    color: var(--light-gray);
+    color: var(--darker-gray);
+    transition: color .2s ease-in-out;
   }
   .title {
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem;
   }
   .item {
@@ -49,6 +64,7 @@ html, body {
   }
   a:hover i.fa {
     color: inherit;
+    transition: color .2s ease-in-out;
   }
   hr {
     dispaly: block;
@@ -58,4 +74,29 @@ html, body {
   }
   .no-url {
     text-decoration: line-through;
+  }
+  .logo {
+    background-color: white;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .img-logo {
+    height: 156px;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+  }
+  @media (min-width: 767px) {
+    .mobile {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .desktop {
+      display: none;
+    }
   }
