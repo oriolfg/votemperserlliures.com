@@ -2,26 +2,30 @@
     Master Jedi:Oriol Ferràndez Grau
     Contact: oriol [at] ferrandez.cat
     Twitter: @oriolfg
-    From:Caldes de Montbui, Barcelona, 
+    From:Caldes de Montbui, Barcelona, Catalonia
     
     Master Jedi:Angel Fernandez Ibañez
     Twitter: @black_bit
-    From:Caldes de Montbui, Barcelona, 
+    From:Caldes de Montbui, Barcelona, Catalonia
     
     Master Jedi:Oriol Tauleria
     Twitter: @UriTau
-    From:Caldes de Montbui, Barcelona, 
+    From:Caldes de Montbui, Barcelona, Catalonia
     
     Master Jedi:Adrià Fontcuberta
-    Twitter: @afontcu << Compte suspès, jijiji
-    From:Caldes de Montbui, Barcelona, 
+    Twitter: @afontcu_
+    From:Caldes de Montbui, Barcelona, Catalonia
 
     Passarell:Quim Rovira
     Twitter: @quimrovira
     From: Girona, Catalonia
+    
+    Contributor Jedi: Ferard Forcada
+    Twitter: @gerard_forcada
+    From: Barcelona, Catalonia
 
 /* SITE */
-    Last update:2017/09/29
+    Last update:2017/09/30
     Language: Català
     Doctype:HTML5
     IDE: Sublime Text 3, Git, Gimp, Sketch App
