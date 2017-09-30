@@ -39,7 +39,7 @@ html, body {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(44px, 1fr));
       grid-gap: 3rem;
-      padding-bottom: 1%;
+      padding-bottom: 1rem;
     }
   }
   i.fa {
